@@ -13,6 +13,6 @@ git commit -m 'deploy'
 git branch -M main
 git remote add origin git@github.com:2382546457/2382546457.github.io.git
 
-git push -u origin main
+git push -f origin main
 
 cd -
