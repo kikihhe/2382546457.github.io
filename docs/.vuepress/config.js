@@ -47,7 +47,7 @@ module.exports = {
         ]
       },
 
-      { text: '资源', link: '/pages/db78e2/' },
+      { text: '文章', link: '/pages/259a4b/' },
       { text: '案例', link: '/pages/5d571c/' },
       { text: '问答', link: '/pages/9cc27d/' },
       { text: '联系我', link: '/pages/1b12ed/' },
