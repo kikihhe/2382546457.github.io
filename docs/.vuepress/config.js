@@ -23,31 +23,34 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      {
-        text: '指南', link: '/pages/a2f161/', items: [
-          { text: '主题初衷与诞生', link: '/pages/52d5c3/' },
-          { text: '介绍', link: '/pages/a2f161/' },
-          { text: '快速上手', link: '/pages/793dcb/' },
-          { text: '目录结构', link: '/pages/2f674a/' },
-          { text: '核心配置和约定', link: '/pages/33d574/' },
-          { text: '自动生成front matter', link: '/pages/088c16/' },
-          { text: 'Markdown 容器', link: '/pages/d0d7eb/' },
-          { text: 'Markdown 中使用组件', link: '/pages/197691/' },
-          {
-            text: '相关文章', items: [
-              { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
-              { text: '如何让你的笔记更有表现力', link: '/pages/dd027d/' },
-              { text: '批量操作front matter工具', link: '/pages/2b8e22/' },
-              { text: '部署', link: '/pages/0fc1d2/' },
-              { text: '关于写文章和H1标题', link: '/pages/9ae0bd/' },
-              { text: '关于博客搭建与管理', link: '/pages/26997d/' },
-              { text: '在线编辑和新增文章的方法', link: '/pages/c5a54d/' },
-            ]
-          }
-        ]
-      },
+      // {
+      //   text: '指南', link: '/pages/a2f161/', items: [
+      //     { text: '主题初衷与诞生', link: '/pages/52d5c3/' },
+      //     { text: '介绍', link: '/pages/a2f161/' },
+      //     { text: '快速上手', link: '/pages/793dcb/' },
+      //     { text: '目录结构', link: '/pages/2f674a/' },
+      //     { text: '核心配置和约定', link: '/pages/33d574/' },
+      //     { text: '自动生成front matter', link: '/pages/088c16/' },
+      //     { text: 'Markdown 容器', link: '/pages/d0d7eb/' },
+      //     { text: 'Markdown 中使用组件', link: '/pages/197691/' },
+      //     {
+      //       text: '相关文章', items: [
+      //         { text: '使目录栏支持h2~h6标题', link: '/pages/8dfab5/' },
+      //         { text: '如何让你的笔记更有表现力', link: '/pages/dd027d/' },
+      //         { text: '批量操作front matter工具', link: '/pages/2b8e22/' },
+      //         { text: '部署', link: '/pages/0fc1d2/' },
+      //         { text: '关于写文章和H1标题', link: '/pages/9ae0bd/' },
+      //         { text: '关于博客搭建与管理', link: '/pages/26997d/' },
+      //         { text: '在线编辑和新增文章的方法', link: '/pages/c5a54d/' },
+      //       ]
+      //     }
+      //   ]
+      // },
 
-      { text: '文章', link: '/pages/259a4b/' },
+      {
+        text: '文章',
+        link: '/pages/259a4b/'
+      },
       { text: '案例', link: '/pages/5d571c/' },
       { text: '问答', link: '/pages/9cc27d/' },
       { text: '联系我', link: '/pages/1b12ed/' },
@@ -63,7 +66,7 @@ module.exports = {
     // editLinkText: '编辑',
 
     // 以下配置是Vdoing主题改动的和新增的配置
-    sidebar: { mode: 'structuring', collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
+    sidebar: { mode: 'structuring', collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
 
     // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
     updateBar: { // 最近更新栏
