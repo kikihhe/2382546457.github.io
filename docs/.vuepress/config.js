@@ -7,7 +7,7 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题
   // theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-  title: "vuepress-theme-vdoing",
+  title: "",
   description: '一个基于VuePress的 知识管理&博客 主题',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
@@ -51,8 +51,8 @@ module.exports = {
         text: '文章',
         link: '/pages/259a4b/'
       },
-      { text: '案例', link: '/pages/5d571c/' },
-      { text: '问答', link: '/pages/9cc27d/' },
+      // { text: '案例', link: '/pages/5d571c/' },
+      // { text: '问答', link: '/pages/9cc27d/' },
       { text: '联系我', link: '/pages/1b12ed/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
